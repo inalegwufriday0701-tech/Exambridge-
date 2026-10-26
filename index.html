@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#063d30">
+<meta name="description" content="A modern student examination information and preparation portal.">
+<title>ExamBridge | Student Examination Portal</title>
+
+<!-- Matching SVG logo and favicon -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23063d30'/%3E%3Cpath d='M15 18h34v28H15z' fill='none' stroke='%23d6ae60' stroke-width='4'/%3E%3Cpath d='M23 27h18M23 35h12' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+
+<style>
+:root{
+--green:#063d30;
+--green2:#095540;
+--gold:#d6ae60;
+--white:#fff;
+--bg:#f5f8f6;
+--text:#142b25;
+--muted:#63766e;
+--border:#dce7e0;
+--radius:20px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+font-family:system-ui,-apple-system,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
+overflow-x:hidden;
+}
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+a{text-decoration:none;color:inherit}
+img,svg{max-width:100%}
+button:focus-visible,a:focus-visible,input:focus-visible,
+textarea:focus-visible,select:focus-visible{
+outline:3px solid var(--gold);
+outline-offset:3px;
+}
+.container{width:min(1180px,92%);margin:auto}
+section{padding:95px 0}
+.section-head{text-align:center;margin-bottom:48px}
+.section-head h2{
+font-size:clamp(28px,4vw,43px);
+line-height:1.2;
+margin:12px 0;
+letter-spacing:-1px;
+}
+.section-head p{color:var(--muted);margin:auto}
+.tag{
+color:#a87929;
+font-size:12px;
+font-weight:800;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+.gradient-text{
+background:linear-gradient(110deg,#fff,#d6ae60,#fff);
+background-size:220%;
+background-clip:text;
+-webkit-background-clip:text;
+color:transparent;
+animation:gradient 7s linear infinite;
+}
+@keyframes gradient{to{background-position:220%}}
+
+/* Navigation */
+.nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:1000;
+transition:.3s;
+color:white;
+}
+.nav.scrolled{
+background:rgba(5,47,36,.96);
+backdrop-filter:blur(18px);
+box-shadow:0 5px 25px #0002;
+}
+.nav-inner{
+height:82px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+.brand{display:flex;align-items:center;gap:11px;font-weight:850;font-size:21px;white-space:nowrap}
+.brand svg{width:42px;height:42px;flex-shrink:0}
+.brand small{display:block;font-size:9px;letter-spacing:1.4px;color:#c4d8ce}
+.links{display:flex;align-items:center;gap:27px}
+.links a{font-size:13px;font-weight:650;white-space:nowrap;transition:.2s}
+.links a:hover{color:var(--gold)}
+.btn{
+border:0;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:9px;
+min-height:48px;
+padding:13px 23px;
+border-radius:10px;
+font-weight:750;
+font-size:13px;
+white-space:nowrap;
+transition:transform .25s,background .25s,box-shadow .25s;
+}
+.btn:hover{transform:translateY(-3px)}
+.btn-gold{background:var(--gold);color:#17372a}
+.btn-gold:hover{box-shadow:0 9px 28px #d6ae6050}
+.btn-green{background:var(--green);color:white}
+.btn-outline{border:1px solid #ffffff70;color:white;background:#ffffff12}
+.menu-btn{display:none;background:none;border:0;color:white;font-size:28px;min-width:44px;min-height:44px}
+
+/* Hero and interactive 3D scene */
+.hero{
+min-height:100svh;
+background:radial-gradient(ellipse at 80% 40%,#176b50 0%,#063d30 48%,#03291f 100%);
+color:white;
+position:relative;
+display:flex;
+align-items:center;
+overflow:hidden;
+padding:145px 0 90px;
+}
+.hero:after{
+content:"";
+position:absolute;
+inset:0;
+pointer-events:none;
+background-image:linear-gradient(#ffffff07 1px,transparent 1px),linear-gradient(90deg,#ffffff07 1px,transparent 1px);
+background-size:65px 65px;
+mask-image:linear-gradient(90deg,transparent,#000);
+}
+.hero-grid{
+display:grid;
+grid-template-columns:1.08fr .92fr;
+align-items:center;
+gap:45px;
+position:relative;
+z-index:2;
+}
+.hero h1{
+font-size:clamp(35px,5.5vw,69px);
+line-height:1.11;
+letter-spacing:-2px;
+margin:23px 0;
+}
+.hero p{font-size:16px;color:#c5dcd0;max-width:570px}
+.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:32px}
+.hero-badge{
+display:inline-flex;
+align-items:center;
+gap:9px;
+border:1px solid #ffffff35;
+background:#ffffff10;
+border-radius:30px;
+padding:8px 15px;
+font-size:11px;
+font-weight:750;
+letter-spacing:1px;
+}
+.dot{width:7px;height:7px;background:var(--gold);border-radius:50%;box-shadow:0 0 12px var(--gold)}
+.typing{color:var(--gold)}
+.cursor{animation:blink .8s infinite}
+@keyframes blink{50%{opacity:0}}
+.hero-stats{display:flex;gap:30px;margin-top:48px;flex-wrap:wrap}
+.hero-stats strong{font-size:27px;display:block}
+.hero-stats span{font-size:11px;color:#bdd5c8}
+.scene{
+height:440px;
+position:relative;
+perspective:900px;
+display:grid;
+place-items:center;
+}
+.orbit{
+position:absolute;
+width:340px;
+height:340px;
+border:1px solid #d6ae6045;
+border-radius:50%;
+transform-style:preserve-3d;
+animation:orbit 17s linear infinite;
+}
+.orbit.two{width:280px;height:280px;animation-duration:12s;animation-direction:reverse;transform:rotateX(65deg)}
+@keyframes orbit{to{transform:rotateY(360deg) rotateX(55deg)}}
+.cube{
+width:185px;height:185px;
+position:relative;
+transform-style:preserve-3d;
+animation:rotateCube 16s linear infinite;
+transition:filter .3s;
+}
+.face{
+position:absolute;
+width:185px;height:185px;
+display:grid;place-items:center;
+border:1px solid #d6ae6080;
+background:linear-gradient(140deg,#ffffff25,#d6ae6012);
+backdrop-filter:blur(7px);
+font-size:53px;
+font-weight:900;
+color:var(--gold);
+}
+.front{transform:translateZ(92.5px)}
+.back{transform:rotateY(180deg) translateZ(92.5px)}
+.right{transform:rotateY(90deg) translateZ(92.5px)}
+.left{transform:rotateY(-90deg) translateZ(92.5px)}
+.top{transform:rotateX(90deg) translateZ(92.5px)}
+.bottom{transform:rotateX(-90deg) translateZ(92.5px)}
+@keyframes rotateCube{to{transform:rotateX(360deg) rotateY(360deg)}}
+.particle{
+position:absolute;
+width:5px;height:5px;
+border-radius:50%;
+background:var(--gold);
+box-shadow:0 0 15px var(--gold);
+animation:float 5s ease-in-out infinite alternate;
+}
+@keyframes float{to{transform:translate3d(20px,-45px,30px);opacity:.3}}
+.float-label{
+position:absolute;
+background:#ffffff18;
+border:1px solid #ffffff40;
+backdrop-filter:blur(12px);
+border-radius:12px;
+padding:12px 17px;
+font-size:12px;
+font-weight:700;
+}
+.label1{top:55px;left:0}
+.label2{bottom:65px;right:0}
+.label3{bottom:55px;left:20px}
+
+/* Service cards */
+.services-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:22px;
+perspective:1100px;
+}
+.card{
+position:relative;
+overflow:hidden;
+background:white;
+border:1px solid var(--border);
+border-radius:var(--radius);
+padding:30px;
+min-height:260px;
+transform-style:preserve-3d;
+transition:transform .2s,box-shadow .3s,border-color .3s;
+}
+.card:hover{
+border-color:#b1cdbb;
+box-shadow:0 18px 35px #063d3017;
+}
+.card:before{
+content:"";
+position:absolute;
+inset:0;
+background:radial-gradient(circle at var(--x,50%) var(--y,50%),#d6ae6030,transparent 55%);
+opacity:0;
+transition:opacity .3s;
+pointer-events:none;
+}
+.card:hover:before{opacity:1}
+.card>*{position:relative;transform:translateZ(15px)}
+.icon{
+width:51px;height:51px;
+border-radius:13px;
+display:grid;place-items:center;
+background:#e8f3ed;
+color:var(--green);
+font-weight:900;
+font-size:23px;
+margin-bottom:24px;
+}
+.card h3{font-size:18px;margin:0 0 9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card p{color:var(--muted);font-size:13px;margin:0 0 24px}
+.card a{color:var(--green);font-weight:800;font-size:13px}
+.card a:hover{text-decoration:underline}
+
+/* Information section */
+.info{background:#eaf2ed}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.info h2{font-size:clamp(28px,4vw,43px);line-height:1.2;letter-spacing:-1px}
+.info p{color:var(--muted)}
+.info-panel{
+background:var(--green);
+color:white;
+padding:34px;
+border-radius:23px;
+position:relative;
+overflow:hidden;
+}
+.info-panel:after{
+content:"";
+width:190px;height:190px;
+border:1px solid #ffffff25;
+border-radius:50%;
+position:absolute;
+right:-70px;top:-70px;
+}
+.step{display:flex;gap:18px;margin:24px 0;position:relative}
+.step-num{
+width:38px;height:38px;
+border:1px solid #d6ae6070;
+border-radius:10px;
+display:grid;place-items:center;
+color:var(--gold);
+flex-shrink:0;
+font-weight:800;
+}
+.step h4{margin:0 0 4px}
+.step p{margin:0;font-size:12px;color:#c0d7ca}
+
+/* Dashboard */
+.dashboard{
+background:#fff;
+border:1px solid var(--border);
+border-radius:22px;
+overflow:hidden;
+display:grid;
+grid-template-columns:220px 1fr;
+box-shadow:0 20px 55px #063d3010;
+}
+.dash-side{background:var(--green);color:white;padding:26px}
+.dash-side h3{font-size:15px;margin:0 0 30px}
+.dash-side a{
+display:block;
+font-size:12px;
+padding:12px;
+border-radius:8px;
+margin-bottom:7px;
+color:#d3e3d8;
+}
+.dash-side a.active,.dash-side a:hover{background:#ffffff20;color:white}
+.dash-main{padding:30px}
+.dash-main h3{margin:0}
+.dash-main>p{font-size:13px;color:var(--muted)}
+.dash-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:25px 0}
+.dash-box{border:1px solid var(--border);border-radius:12px;padding:17px;min-width:0}
+.dash-box span{font-size:11px;color:var(--muted);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dash-box strong{font-size:20px;display:block;margin-top:6px}
+.notice{padding:16px;border-left:3px solid var(--gold);background:#f8f5ec;border-radius:5px;font-size:12px;margin-top:13px}
+.notice strong{display:block;margin-bottom:4px}
+.notice p{margin:0;color:var(--muted)}
+
+/* Tabs */
+.tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:30px}
+.tab{
+padding:12px 22px;
+background:white;
+border:1px solid var(--border);
+border-radius:9px;
+font-weight:750;
+font-size:12px;
+white-space:nowrap;
+}
+.tab.active{background:var(--green);color:white}
+.tab-panel{display:none;max-width:850px;margin:auto;background:white;border:1px solid var(--border);padding:30px;border-radius:18px}
+.tab-panel.active{display:block}
+.tab-panel h3{margin-top:0}
+.tab-panel p,.tab-panel li{color:var(--muted);font-size:14px}
+
+/* FAQ */
+.faq{max-width:800px;margin:auto}
+.faq-item{background:white;border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}
+.faq-q{
+width:100%;
+padding:20px;
+background:none;
+border:0;
+text-align:left;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:15px;
+font-weight:750;
+font-size:14px;
+color:var(--text);
+}
+.faq-q span:last-child{color:var(--green);font-size:22px;flex-shrink:0}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .35s}
+.faq-answer p{padding:0 20px 20px;margin:0;color:var(--muted);font-size:13px}
+.faq-item.open .faq-answer{max-height:250px}
+
+/* Forms */
+.contact{background:var(--green);color:white}
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:center}
+.contact h2{font-size:clamp(29px,4vw,43px);line-height:1.2}
+.contact p{color:#c4d8ce}
+.form-box{
+background:white;
+color:var(--text);
+padding:30px;
+border-radius:20px;
+}
+.form-box label{display:block;font-size:12px;font-weight:750;margin:14px 0 7px}
+.form-box input,.form-box textarea,.form-box select{
+width:100%;
+border:1px solid var(--border);
+border-radius:9px;
+padding:13px;
+outline:none;
+background:#f9fbfa;
+color:var(--text);
+font-size:14px;
+}
+.form-box input:focus,.form-box textarea:focus{border-color:var(--green)}
+.form-box textarea{min-height:110px;resize:vertical}
+.form-box .btn{width:100%;margin-top:20px}
+.status{font-size:12px;margin-top:12px;min-height:20px;color:var(--green)}
+.auth-area{background:#eaf2ed}
+.auth-panel{max-width:540px;margin:auto;background:white;padding:30px;border-radius:18px;border:1px solid var(--border)}
+.auth-panel input{max-width:100%}
+.preview-note{font-size:13px;color:var(--muted)}
+footer{background:#03271e;color:#c3d8cd;padding:45px 0 25px}
+.footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer p{font-size:12px;max-width:430px}
+footer a{font-size:12px;margin-right:15px}
+footer a:hover{color:var(--gold)}
+.footer-bottom{border-top:1px solid #ffffff20;margin-top:35px;padding-top:20px;font-size:11px}
+.reveal{opacity:0;transform:translateY(35px);transition:opacity .7s,transform .7s}
+.reveal.visible{opacity:1;transform:translateY(0)}
+[data-taa-signed-in],[data-taa-signed-out]{display:none}
+
+/* Mobile layout */
+@media(max-width:850px){
+.nav-inner{height:70px}
+.menu-btn{display:block}
+.links{
+position:absolute;
+top:70px;left:0;right:0;
+background:#063d30;
+display:flex;
+flex-direction:column;
+align-items:stretch;
+gap:0;
+padding:0 5%;
+max-height:0;
+overflow:hidden;
+transition:max-height .35s,padding .35s;
+}
+.links.open{max-height:450px;padding:15px 5% 25px}
+.links a{padding:12px;border-bottom:1px solid #ffffff15}
+.links .btn{margin-top:12px}
+.hero-grid{grid-template-columns:1fr}
+.hero{padding:125px 0 65px}
+.scene{height:330px}
+.orbit{width:260px;height:260px}
+.orbit.two{width:210px;height:210px}
+.cube,.face{width:135px;height:135px}
+.front{transform:translateZ(67.5px)}
+.back{transform:rotateY(180deg) translateZ(67.5px)}
+.right{transform:rotateY(90deg) translateZ(67.5px)}
+.left{transform:rotateY(-90deg) translateZ(67.5px)}
+.top{transform:rotateX(90deg) translateZ(67.5px)}
+.bottom{transform:rotateX(-90deg) translateZ(67.5px)}
+.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.info-grid,.contact-grid{grid-template-columns:1fr}
+section{padding:65px 0}
+}
+@media(max-width:550px){
+.hero h1{letter-spacing:-1px}
+.hero-stats{gap:20px}
+.hero-stats strong{font-size:22px}
+.services-grid{grid-template-columns:1fr}
+.card{min-height:225px}
+.dashboard{grid-template-columns:1fr}
+.dash-side{padding:17px}
+.dash-side h3{margin-bottom:8px}
+.dash-side a{display:inline-block;margin:2px;padding:8px}
+.dash-main{padding:18px}
+.dash-cards{grid-template-columns:1fr}
+.dash-box{padding:13px}
+.info-panel,.form-box{padding:23px}
+.scene{height:285px}
+.label1{top:12px}
+.label2{bottom:15px}
+.label3{bottom:10px}
+.hero-actions .btn{flex:1}
+}
+@media(prefers-reduced-motion:reduce){
+*,*:before,*:after{
+animation:none!important;
+transition:none!important;
+scroll-behavior:auto!important;
+}
+.reveal{opacity:1;transform:none}
+}
+</style>
+<link rel="stylesheet" href="/app.css"></head>
+
+<body>
+
+<!-- Sticky navigation -->
+<header class="nav" id="navbar">
+<div class="container nav-inner">
+<a href="#home" class="brand" aria-label="ExamBridge Home">
+<svg viewBox="0 0 64 64" aria-hidden="true">
+<rect width="64" height="64" rx="15" fill="#d6ae60"/>
+<path d="M15 18h34v28H15z" fill="none" stroke="#063d30" stroke-width="4"/>
+<path d="M23 27h18M23 35h12" stroke="#063d30" stroke-width="3"/>
+</svg>
+<div>ExamBridge<small>STUDENT PORTAL</small></div>
+</a>
+<nav class="links" id="navLinks" aria-label="Main navigation">
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#guide">Guide</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#faq">FAQ</a>
+<a href="#contact">Contact</a>
+<a href="#account" class="btn btn-gold">Student Login</a>
+</nav>
+<button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+</div>
+</header>
+
+<main>
+
+<!-- Animated hero -->
+<section class="hero" id="home">
+<div class="container hero-grid">
+<div>
+<div class="hero-badge"><span class="dot"></span> YOUR EDUCATION JOURNEY STARTS HERE</div>
+<h1>
+Your Future.<br>
+Your Ambition.<br>
+<span class="gradient-text">Your Success.</span>
+</h1>
+<p>Everything you need to prepare confidently for your next academic milestone. Explore examination guidance, admission resources and student support.</p>
+<p style="font-weight:750;color:#fff;min-height:28px">
+Explore <span class="typing" id="typing"></span><span class="cursor">|</span>
+</p>
+<div class="hero-actions">
+<a href="#services" class="btn btn-gold">Explore Services <span>→</span></a>
+<a href="#account" class="btn btn-outline">Student Portal</a>
+</div>
+<div class="hero-stats">
+<div><strong data-count="6">0</strong><span>RESOURCE CATEGORIES</span></div>
+<div><strong data-count="24">0</strong><span>HOUR ACCESS</span></div>
+<div><strong data-count="100">0</strong><span>FOCUS ON STUDENTS %</span></div>
+</div>
+</div>
+
+<div class="scene" id="scene" aria-hidden="true">
+<div class="orbit"></div>
+<div class="orbit two"></div>
+<div class="cube" id="cube">
+<div class="face front">E</div>
+<div class="face back">B</div>
+<div class="face right">✓</div>
+<div class="face left">A</div>
+<div class="face top">+</div>
+<div class="face bottom">E</div>
+</div>
+<div class="float-label label1">Academic Excellence</div>
+<div class="float-label label2">Your Future Matters</div>
+<div class="float-label label3">Student First</div>
+<div class="particle" style="top:12%;left:35%"></div>
+<div class="particle" style="top:70%;left:80%;animation-delay:1s"></div>
+<div class="particle" style="top:30%;left:85%;animation-delay:2s"></div>
+<div class="particle" style="top:80%;left:25%;animation-delay:3s"></div>
+<div class="particle" style="top:18%;left:65%;animation-delay:1.5s"></div>
+</div>
+</div>
+</section>
+
+<!-- Main student services -->
+<section id="services">
+<div class="container">
+<div class="section-head reveal">
+<span class="tag">STUDENT SERVICES</span>
+<h2>Everything in One Place</h2>
+<p>Find the resources you need at every stage of your academic journey.</p>
+</div>
+
+<div class="services-grid">
+<article class="card reveal">
+<div class="icon">01</div>
+<h3>UTME Registration</h3>
+<p>Understand registration requirements, profile creation and examination procedures.</p>
+<a href="#guide">View guide →</a>
+</article>
+
+<article class="card reveal">
+<div class="icon">02</div>
+<h3>Examination Slip</h3>
+<p>Learn how to access your examination schedule, centre and important instructions.</p>
+<a href="#guide">Learn more →</a>
+</article>
+
+<article class="card reveal">
+<div class="icon">03</div>
+<h3>Result Checking</h3>
+<p>Find information on checking your examination results through official channels.</p>
+<a href="#guide">Explore →</a>
+</article>
+
+<article class="card reveal">
+<div class="icon">04</div>
+<h3>Admission Support</h3>
+<p>Understand admission processing, acceptance procedures and CAPS.</p>
+<a href="#guide">View details →</a>
+</article>
+
+<article class="card reveal">
+<div class="icon">05</div>
+<h3>Subject Combination</h3>
+<p>Discover the importance of selecting suitable subjects for your preferred course.</p>
+<a href="#resources">Get guidance →</a>
+</article>
+
+<article class="card reveal">
+<div class="icon">06</div>
+<h3>Student Enquiries</h3>
+<p>Send your questions and receive assistance through our enquiry system.</p>
+<a href="#contact">Contact us →</a>
+</article>
+</div>
+</div>
+</section>
+
+<!-- Registration guidance -->
+<section class="info" id="guide">
+<div class="container info-grid">
+<div class="reveal">
+<span class="tag">GETTING STARTED</span>
+<h2>A Clear Path to Your Next Academic Milestone.</h2>
+<p>Preparing for tertiary education requires accurate information and careful planning.</p>
+<p>Our simplified guide helps students understand the major stages of the examination and admission journey.</p>
+<a href="#resources" class="btn btn-green">Explore Resources →</a>
+</div>
+
+<div class="info-panel reveal">
+<h3 style="margin-top:0">Your Student Journey</h3>
+<div class="step">
+<div class="step-num">01</div>
+<div><h4>Prepare Your Documents</h4><p>Confirm your personal details and required credentials.</p></div>
+</div>
+<div class="step">
+<div class="step-num">02</div>
+<div><h4>Complete Registration</h4><p>Follow the official registration instructions.</p></div>
+</div>
+<div class="step">
+<div class="step-num">03</div>
+<div><h4>Prepare for Examination</h4><p>Study your selected subjects and understand the CBT format.</p></div>
+</div>
+<div class="step">
+<div class="step-num">04</div>
+<div><h4>Monitor Admission</h4><p>Follow admission updates through official channels.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Demonstration dashboard -->
+<section id="dashboard">
+<div class="container">
+<div class="section-head reveal">
+<span class="tag">STUDENT EXPERIENCE</span>
+<h2>Your Personal Dashboard</h2>
+<p>A simplified space for your account and educational resources.</p>
+</div>
+
+<div class="dashboard reveal">
+<div class="dash-side">
+<h3>EXAMBRIDGE</h3>
+<a href="#dashboard" class="active">Overview</a>
+<a href="#resources">Resources</a>
+<a href="#account">My Account</a>
+<a href="#contact">Support</a>
+</div>
+<div class="dash-main">
+<h3>Welcome, <span id="studentName">Student</span></h3>
+<p>Here is your student information centre.</p>
+<div class="dash-cards">
+<div class="dash-box"><span>Portal Status</span><strong style="color:#08744d">Active</strong></div>
+<div class="dash-box"><span>Resources</span><strong>Available</strong></div>
+<div class="dash-box"><span>Account</span><strong id="accountState">Guest</strong></div>
+</div>
+<h4>Important Information</h4>
+<div class="notice">
+<strong>Examination Updates</strong>
+<p>Always confirm registration deadlines and examination dates directly with the official examination body.</p>
+</div>
+<div class="notice">
+<strong>Admission Monitoring</strong>
+<p>Check your official CAPS account regularly for admission updates.</p>
+</div>
+<div class="notice">
+<strong>Security Reminder</strong>
+<p>Never share your examination password, OTP or confidential account information with anyone.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="official-materials" style="padding:55px 5%;background:#edf5ef"><div class="container"><h2>Official JAMB study resources</h2><p>Use JAMB’s own syllabus and eligibility checker alongside ExamBridge’s original practice questions. External links open the official JAMB portals. ExamBridge does not claim its illustrative questions are authentic past papers.</p><p><a href="https://ibass.jamb.gov.ng/" target="_blank" rel="noopener noreferrer">Official e-Syllabus (IBASS) ↗</a> &nbsp; · &nbsp; <a href="https://eligibility.jamb.gov.ng/" target="_blank" rel="noopener noreferrer">Subject combination / eligibility ↗</a> &nbsp; · &nbsp; <a href="https://www.jamb.gov.ng/" target="_blank" rel="noopener noreferrer">JAMB official announcements ↗</a></p><p><strong>Past-question archive:</strong> Authentic third-party or JAMB papers can be imported only when redistribution rights are confirmed. The bundled questions are original samples.</p></div></section>
+
+<!-- Interactive resource tabs -->
+<section class="info" id="resources">
+<div class="container">
+<div class="section-head reveal">
+<span class="tag">KNOWLEDGE CENTRE</span>
+<h2>Explore Student Resources</h2>
+<p>Useful information organised around your academic needs.</p>
+</div>
+
+<div class="tabs" role="tablist" aria-label="Student resources">
+<button class="tab active" role="tab" aria-selected="true" data-tab="registration">Registration</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="examination">Examination</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="admission">Admission</button>
+<button class="tab" role="tab" aria-selected="false" data-tab="security">Account Safety</button>
+</div>
+
+<div class="tab-panel active" id="registration" role="tabpanel">
+<h3>Registration Essentials</h3>
+<p>Before registering for an examination, confirm that your personal information is accurate and consistent across your required documents.</p>
+<ul>
+<li>Verify your personal information.</li>
+<li>Research your preferred institution and course.</li>
+<li>Confirm the correct subject combination.</li>
+<li>Follow official registration announcements.</li>
+</ul>
+</div>
+
+<div class="tab-panel" id="examination" role="tabpanel">
+<h3>Examination Preparation</h3>
+<p>Effective preparation begins with a realistic study plan and familiarity with the examination format.</p>
+<ul>
+<li>Study the current syllabus.</li>
+<li>Practise CBT-style questions.</li>
+<li>Understand examination centre regulations.</li>
+<li>Confirm your examination schedule.</li>
+</ul>
+</div>
+
+<div class="tab-panel" id="admission" role="tabpanel">
+<h3>Admission Guidance</h3>
+<p>Admission processing may involve institutional recommendations and official approval procedures.</p>
+<ul>
+<li>Understand your institution's admission requirements.</li>
+<li>Monitor your official CAPS account.</li>
+<li>Confirm your O-level information.</li>
+<li>Follow institutional announcements.</li>
+</ul>
+</div>
+
+<div class="tab-panel" id="security" role="tabpanel">
+<h3>Protect Your Information</h3>
+<p>Your examination credentials are confidential. Protect them throughout your admission journey.</p>
+<ul>
+<li>Use only verified examination websites.</li>
+<li>Never disclose passwords or OTPs.</li>
+<li>Avoid unofficial payment requests.</li>
+<li>Report suspicious messages.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- FAQ accordion -->
+<section id="faq">
+<div class="container">
+<div class="section-head reveal">
+<span class="tag">HELP CENTRE</span>
+<h2>Frequently Asked Questions</h2>
+<p>Answers to common student enquiries.</p>
+</div>
+
+<div class="faq reveal">
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Is ExamBridge the official JAMB website?<span>+</span></button>
+<div class="faq-answer"><p>No. ExamBridge is an independent demonstration and student information portal. It is not affiliated with or endorsed by JAMB.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Can I register for UTME here?<span>+</span></button>
+<div class="faq-answer"><p>No. Official UTME registration must be completed through JAMB-approved registration channels.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">How can I monitor my admission?<span>+</span></button>
+<div class="faq-answer"><p>Use the official JAMB CAPS platform to monitor your admission status and follow announcements from your preferred institution.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Can I create an ExamBridge account?<span>+</span></button>
+<div class="faq-answer"><p>Yes. Once account services are available on the published website, you can create an account or sign in.</p></div>
+</div>
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Does this portal issue examination results?<span>+</span></button>
+<div class="faq-answer"><p>No. Official examination results are issued exclusively through authorised examination channels.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Authentication -->
+<section class="auth-area" id="account">
+<div class="container">
+<div class="section-head">
+<span class="tag">STUDENT ACCESS</span>
+<h2>My Account</h2>
+<p>Access your ExamBridge account securely.</p>
+</div>
+
+<div class="auth-panel">
+<div id="authPreview" class="preview-note">Account services are available on the published website.</div>
+
+<div data-taa-signed-out hidden>
+<div data-taa-signin></div>
+</div>
+
+<div data-taa-signed-in hidden>
+<h3>Welcome back</h3>
+<p>Signed in as <span data-taa-user></span></p>
+<button data-taa-signout class="btn btn-green">Sign Out</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Enquiry form -->
+<section class="contact" id="contact">
+<div class="container contact-grid">
+<div class="reveal">
+<span class="tag" style="color:var(--gold)">GET IN TOUCH</span>
+<h2>Have a Question?<br><span class="gradient-text">We're Here to Help.</span></h2>
+<p>Send an enquiry about examination preparation, student resources or using the ExamBridge portal.</p>
+<p>Do not include passwords, OTPs, examination PINs or other confidential credentials.</p>
+</div>
+
+<div class="form-box reveal">
+<form id="contactForm" novalidate>
+<h3 style="margin-top:0">Send an Enquiry</h3>
+<label for="fullName">Full Name</label>
+<input id="fullName" name="name" placeholder="Enter your full name" autocomplete="name" maxlength="80" required>
+
+<label for="email">Email Address</label>
+<input id="email" name="email" type="email" placeholder="Enter your email address" autocomplete="email" maxlength="150" required>
+
+<label for="subject">Enquiry Type</label>
+<select id="subject" name="subject" required>
+<option value="">Select a category</option>
+<option>Registration Guidance</option>
+<option>Examination Preparation</option>
+<option>Admission Information</option>
+<option>Technical Support</option>
+<option>General Enquiry</option>
+</select>
+
+<label for="message">Your Message</label>
+<textarea id="message" name="message" placeholder="How can we assist you?" minlength="15" maxlength="2000" required></textarea>
+
+<button class="btn btn-green" id="submitBtn" type="submit">Submit Enquiry →</button>
+<div class="status" id="formStatus" role="status" aria-live="polite"></div>
+</form>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div>
+<a href="#home" class="brand">
+<svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true">
+<rect width="64" height="64" rx="15" fill="#d6ae60"/>
+<path d="M15 18h34v28H15z" fill="none" stroke="#063d30" stroke-width="4"/>
+<path d="M23 27h18M23 35h12" stroke="#063d30" stroke-width="3"/>
+</svg>
+ExamBridge
+</a>
+<p>Helping students navigate their educational journey through accessible information and practical guidance.</p>
+</div>
+<div>
+<h4 style="color:white">Quick Navigation</h4>
+<a href="#services">Services</a>
+<a href="#resources">Resources</a>
+<a href="#faq">FAQ</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+<div class="footer-bottom">
+© <span id="year"></span> ExamBridge. All rights reserved.<br>
+Independent educational demonstration. Not affiliated with JAMB or any government agency.
+</div>
+</div>
+</footer>
+
+<script>
+"use strict";
+
+/* Respect the visitor's motion preferences */
+const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const $=s=>document.querySelector(s);
+const $$=s=>document.querySelectorAll(s);
+
+/* Navigation changes after scrolling */
+const navbar=$("#navbar");
+function updateNav(){
+navbar.classList.toggle("scrolled",window.scrollY>30);
+}
+window.addEventListener("scroll",updateNav,{passive:true});
+updateNav();
+
+/* Animated mobile navigation */
+const menuBtn=$("#menuBtn");
+const navLinks=$("#navLinks");
+menuBtn.addEventListener("click",()=>{
+const open=navLinks.classList.toggle("open");
+menuBtn.setAttribute("aria-expanded",String(open));
+menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
+menuBtn.textContent=open?"×":"☰";
+});
+$$(".links a").forEach(a=>a.addEventListener("click",()=>{
+navLinks.classList.remove("open");
+menuBtn.textContent="☰";
+menuBtn.setAttribute("aria-expanded","false");
+menuBtn.setAttribute("aria-label","Open menu");
+}));
+
+/* Typing headline */
+const words=["UTME Guidance","Admission Resources","Academic Success","Student Support"];
+let wordIndex=0,charIndex=0,deleting=false;
+function type(){
+if(reduced){
+$("#typing").textContent="Academic Success";
+return;
+}
+const word=words[wordIndex];
+$("#typing").textContent=word.slice(0,charIndex);
+if(!deleting&&charIndex<word.length){
+charIndex++;
+setTimeout(type,85);
+}else if(!deleting){
+deleting=true;
+setTimeout(type,1700);
+}else if(charIndex>0){
+charIndex--;
+setTimeout(type,40);
+}else{
+deleting=false;
+wordIndex=(wordIndex+1)%words.length;
+setTimeout(type,350);
+}
+}
+type();
+
+/* Scroll reveal with IntersectionObserver */
+if(!reduced&&"IntersectionObserver" in window){
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("visible");
+observer.unobserve(entry.target);
+}
+});
+},{threshold:.08});
+$$(".reveal").forEach(el=>observer.observe(el));
+}else{
+$$(".reveal").forEach(el=>el.classList.add("visible"));
+}
+
+/* Count numbers when they enter the screen */
+function animateNumber(el){
+const target=Number(el.dataset.count);
+if(reduced){el.textContent=target;return}
+const start=performance.now();
+function frame(now){
+const progress=Math.min((now-start)/1400,1);
+const eased=1-Math.pow(1-progress,3);
+el.textContent=Math.round(target*eased);
+if(progress<1)requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+}
+if("IntersectionObserver" in window){
+const counterObserver=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+animateNumber(entry.target);
+counterObserver.unobserve(entry.target);
+}
+});
+});
+$$("[data-count]").forEach(el=>counterObserver.observe(el));
+}else{
+$$("[data-count]").forEach(animateNumber);
+}
+
+/* Mouse-reactive 3D scene */
+const scene=$("#scene");
+const cube=$("#cube");
+if(!reduced&&window.matchMedia("(pointer:fine)").matches){
+scene.addEventListener("pointermove",e=>{
+const r=scene.getBoundingClientRect();
+const x=(e.clientX-r.left)/r.width-.5;
+const y=(e.clientY-r.top)/r.height-.5;
+scene.style.transform=`perspective(900px) rotateY(${x*7}deg) rotateX(${-y*7}deg)`;
+});
+scene.addEventListener("pointerleave",()=>{
+scene.style.transform="";
+});
+}
+
+/* Interactive card tilt and light reflection */
+if(!reduced&&window.matchMedia("(pointer:fine)").matches){
+$$(".card").forEach(card=>{
+card.addEventListener("pointermove",e=>{
+const r=card.getBoundingClientRect();
+const x=(e.clientX-r.left)/r.width;
+const y=(e.clientY-r.top)/r.height;
+card.style.transform=`rotateX(${(0.5-y)*9}deg) rotateY(${(x-.5)*9}deg) translateY(-5px)`;
+card.style.setProperty("--x",`${x*100}%`);
+card.style.setProperty("--y",`${y*100}%`);
+});
+card.addEventListener("pointerleave",()=>{
+card.style.transform="";
+});
+});
+}
+
+/* Resource tabs */
+$$(".tab").forEach(button=>{
+button.addEventListener("click",()=>{
+$$(".tab").forEach(t=>{
+t.classList.remove("active");
+t.setAttribute("aria-selected","false");
+});
+$$(".tab-panel").forEach(p=>p.classList.remove("active"));
+button.classList.add("active");
+button.setAttribute("aria-selected","true");
+document.getElementById(button.dataset.tab).classList.add("active");
+});
+});
+
+/* Accessible FAQ accordion */
+$$(".faq-q").forEach(button=>{
+button.addEventListener("click",()=>{
+const item=button.parentElement;
+const open=item.classList.toggle("open");
+button.setAttribute("aria-expanded",String(open));
+button.lastElementChild.textContent=open?"−":"+";
+});
+});
+
+/* Published website account integration */
+function initializeAccount(){
+if(typeof TAAAuth==="undefined"){
+$("#authPreview").textContent="Account services will become available when this website is published.";
+return;
+}
+$("#authPreview").hidden=true;
+const user=TAAAuth.user;
+$("#accountState").textContent=user?"Signed In":"Guest";
+if(user){
+$("#studentName").textContent=user.name||"Student";
+}
+}
+initializeAccount();
+
+/* Database-backed enquiry form */
+const form=$("#contactForm");
+const status=$("#formStatus");
+const submitBtn=$("#submitBtn");
+
+function showStatus(message,error=false){
+status.textContent=message;
+status.style.color=error?"#b42318":"#08744d";
+}
+
+form.addEventListener("submit",async e=>{
+e.preventDefault();
+
+const name=$("#fullName").value.trim();
+const email=$("#email").value.trim();
+const subject=$("#subject").value;
+const message=$("#message").value.trim();
+
+if(name.length<3){
+showStatus("Please enter your full name.",true);
+return;
+}
+if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+showStatus("Please enter a valid email address.",true);
+return;
+}
+if(!subject){
+showStatus("Please select an enquiry category.",true);
+return;
+}
+if(message.length<15){
+showStatus("Your message must contain at least 15 characters.",true);
+return;
+}
+if(/password|otp|verification code|secret pin/i.test(message)){
+showStatus("Please remove confidential account information from your message.",true);
+return;
+}
+if(typeof TAADB==="undefined"){
+showStatus("Enquiry submission is available on the published website.");
+return;
+}
+
+submitBtn.disabled=true;
+submitBtn.textContent="Submitting...";
+showStatus("Please wait...");
+
+try{
+const enquiries=TAADB.collection("enquiries");
+const result=await enquiries.add({
+name,email,subject,message
+});
+if(result._pending){
+showStatus("Thanks! Your enquiry has been received and will show after review.");
+}else{
+showStatus("Your enquiry has been submitted successfully.");
+}
+form.reset();
+}catch(error){
+showStatus(error.message||"Unable to submit your enquiry. Please try again.",true);
+}finally{
+submitBtn.disabled=false;
+submitBtn.textContent="Submit Enquiry →";
+}
+});
+
+/* Current copyright year */
+$("#year").textContent=new Date().getFullYear();
+</script>
+<script src="/app.js" defer></script></body>
+</html>
