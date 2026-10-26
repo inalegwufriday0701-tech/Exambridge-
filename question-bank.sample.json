@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "subject": "Use of English",
+    "topic": "Comprehension",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      "They has left.",
+      "They have left.",
+      "They is leaving.",
+      "They was leaving."
+    ],
+    "answer": 1,
+    "explanation": "Plural they takes have.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 2,
+    "subject": "Mathematics",
+    "topic": "Number and Numeration",
+    "question": "What is 15% of 200?",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "0.15 × 200 = 30.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Measurements and Units",
+    "question": "Which quantity is measured in newtons?",
+    "options": [
+      "Mass",
+      "Force",
+      "Power",
+      "Energy"
+    ],
+    "answer": 1,
+    "explanation": "The SI unit of force is the newton.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "question": "A neutral atom has equal numbers of which particles?",
+    "options": [
+      "Protons and electrons",
+      "Protons and neutrons",
+      "Neutrons and electrons",
+      "Ions and electrons"
+    ],
+    "answer": 0,
+    "explanation": "Equal proton and electron charges cancel.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "topic": "Living Cells",
+    "question": "What structure controls most activities of a eukaryotic cell?",
+    "options": [
+      "Cell wall",
+      "Nucleus",
+      "Ribosome",
+      "Vacuole"
+    ],
+    "answer": 1,
+    "explanation": "The nucleus contains genetic information regulating cell functions.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 6,
+    "subject": "Agricultural Science",
+    "topic": "Agricultural Ecology",
+    "question": "Which practice helps reduce soil erosion?",
+    "options": [
+      "Overgrazing",
+      "Contour ploughing",
+      "Bush burning",
+      "Deforestation"
+    ],
+    "answer": 1,
+    "explanation": "Contour ploughing slows surface runoff.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 7,
+    "subject": "Economics",
+    "topic": "Basic Economic Concepts",
+    "question": "What happens to quantity demanded when price rises, other things equal?",
+    "options": [
+      "It generally falls",
+      "It always rises",
+      "It is fixed",
+      "It doubles"
+    ],
+    "answer": 0,
+    "explanation": "The law of demand describes an inverse relationship.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 8,
+    "subject": "Government",
+    "topic": "Elements of Government",
+    "question": "Which arm of government interprets laws?",
+    "options": [
+      "Executive",
+      "Legislature",
+      "Judiciary",
+      "Civil service"
+    ],
+    "answer": 2,
+    "explanation": "Courts exercise judicial power.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 9,
+    "subject": "History",
+    "topic": "Nigerian History",
+    "question": "Nigeria gained independence in which year?",
+    "options": [
+      "1957",
+      "1960",
+      "1963",
+      "1979"
+    ],
+    "answer": 1,
+    "explanation": "Nigeria became independent on 1 October 1960.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 10,
+    "subject": "Geography",
+    "topic": "Map Reading",
+    "question": "What instrument measures atmospheric pressure?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "answer": 1,
+    "explanation": "A barometer measures atmospheric pressure.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 11,
+    "subject": "Commerce",
+    "topic": "Trade",
+    "question": "Which document acknowledges receipt of goods?",
+    "options": [
+      "Receipt",
+      "Invoice",
+      "Quotation",
+      "Catalogue"
+    ],
+    "answer": 0,
+    "explanation": "A receipt acknowledges a transaction or payment.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 12,
+    "subject": "Principles of Accounts",
+    "topic": "Accounting Concepts",
+    "question": "Which side of an asset account records an increase?",
+    "options": [
+      "Credit",
+      "Debit",
+      "Neither",
+      "Both always"
+    ],
+    "answer": 1,
+    "explanation": "An increase in an asset is debited.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 13,
+    "subject": "Literature in English",
+    "topic": "Drama",
+    "question": "A comparison using “like” or “as” is a:",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Irony",
+      "Pun"
+    ],
+    "answer": 1,
+    "explanation": "A simile makes an explicit comparison.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 14,
+    "subject": "Christian Religious Studies",
+    "topic": "Old Testament",
+    "question": "Who led the Israelites out of Egypt in the biblical account?",
+    "options": [
+      "David",
+      "Moses",
+      "Solomon",
+      "Samuel"
+    ],
+    "answer": 1,
+    "explanation": "The book of Exodus describes Moses leading the Israelites.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 15,
+    "subject": "Islamic Religious Studies",
+    "topic": "Quran",
+    "question": "How many obligatory daily prayers are prescribed in Islam?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "answer": 2,
+    "explanation": "There are five obligatory daily salah.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 16,
+    "subject": "French",
+    "topic": "Reading Comprehension",
+    "question": "Choose the French word for “thank you”.",
+    "options": [
+      "Bonjour",
+      "Merci",
+      "Au revoir",
+      "Oui"
+    ],
+    "answer": 1,
+    "explanation": "Merci means thank you.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 17,
+    "subject": "Arabic",
+    "topic": "Comprehension",
+    "question": "Which Arabic word is a common greeting meaning peace?",
+    "options": [
+      "سلام",
+      "كتاب",
+      "بيت",
+      "قلم"
+    ],
+    "answer": 0,
+    "explanation": "Salam means peace.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 18,
+    "subject": "Hausa",
+    "topic": "Language and Grammar",
+    "question": "Which Hausa expression means “thank you”?",
+    "options": [
+      "Sannu",
+      "Na gode",
+      "Sai an jima",
+      "Ina kwana"
+    ],
+    "answer": 1,
+    "explanation": "Na gode expresses thanks.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 19,
+    "subject": "Igbo",
+    "topic": "Language and Grammar",
+    "question": "Which Igbo word is commonly used for “thank you”?",
+    "options": [
+      "Biko",
+      "Daalụ",
+      "Ndewo",
+      "Mba"
+    ],
+    "answer": 1,
+    "explanation": "Daalụ expresses thanks.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 20,
+    "subject": "Yoruba",
+    "topic": "Language and Grammar",
+    "question": "Which Yoruba expression means “thank you”?",
+    "options": [
+      "Ẹ káàárọ̀",
+      "Ẹ ṣé",
+      "Ó dàbọ̀",
+      "Bẹ́ẹ̀ni"
+    ],
+    "answer": 1,
+    "explanation": "Ẹ ṣé expresses thanks.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 21,
+    "subject": "Music",
+    "topic": "Music Theory",
+    "question": "How many semitones are in an octave in equal temperament?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "An octave spans twelve equal semitones.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 22,
+    "subject": "Fine Arts",
+    "topic": "Elements of Art",
+    "question": "Which of these is a primary colour in traditional painting?",
+    "options": [
+      "Green",
+      "Orange",
+      "Red",
+      "Purple"
+    ],
+    "answer": 2,
+    "explanation": "Red is traditionally classified as a primary pigment colour.",
+    "source": "Original illustrative practice item; not an official past question"
+  },
+  {
+    "id": 23,
+    "subject": "Home Economics",
+    "topic": "Food and Nutrition",
+    "question": "Which nutrient is most associated with building and repairing body tissue?",
+    "options": [
+      "Protein",
+      "Water",
+      "Fibre",
+      "Salt"
+    ],
+    "answer": 0,
+    "explanation": "Proteins supply amino acids for growth and repair.",
+    "source": "Original illustrative practice item; not an official past question"
+  }
+]

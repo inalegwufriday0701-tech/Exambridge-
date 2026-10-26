@@ -1,0 +1,1389 @@
+{
+  "status": "Provisional topic map for educational planning; verify each subject against official 2027 JAMB syllabus when released.",
+  "subjects": [
+    {
+      "name": "Use of English",
+      "topics": [
+        {
+          "title": "Comprehension",
+          "lesson": "Introduction to Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Lexis and Structure",
+          "lesson": "Introduction to Lexis and Structure. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Lexis and Structure.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Oral English",
+          "lesson": "Introduction to Oral English. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Oral English.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Summary",
+          "lesson": "Introduction to Summary. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Summary.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Registers",
+          "lesson": "Introduction to Registers. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Registers.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "topics": [
+        {
+          "title": "Number and Numeration",
+          "lesson": "Introduction to Number and Numeration. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Number and Numeration.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Algebra",
+          "lesson": "Introduction to Algebra. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Algebra.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Geometry",
+          "lesson": "Introduction to Geometry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Geometry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Trigonometry",
+          "lesson": "Introduction to Trigonometry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Trigonometry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Calculus",
+          "lesson": "Introduction to Calculus. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Calculus.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Statistics and Probability",
+          "lesson": "Introduction to Statistics and Probability. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Statistics and Probability.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "topics": [
+        {
+          "title": "Measurements and Units",
+          "lesson": "Introduction to Measurements and Units. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Measurements and Units.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Motion",
+          "lesson": "Introduction to Motion. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Motion.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Forces",
+          "lesson": "Introduction to Forces. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Forces.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Energy",
+          "lesson": "Introduction to Energy. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Energy.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Heat",
+          "lesson": "Introduction to Heat. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Heat.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Waves",
+          "lesson": "Introduction to Waves. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Waves.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Electricity",
+          "lesson": "Introduction to Electricity. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Electricity.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Magnetism",
+          "lesson": "Introduction to Magnetism. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Magnetism.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Modern Physics",
+          "lesson": "Introduction to Modern Physics. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Modern Physics.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "topics": [
+        {
+          "title": "Separation Techniques",
+          "lesson": "Introduction to Separation Techniques. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Separation Techniques.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Atomic Structure",
+          "lesson": "Introduction to Atomic Structure. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Atomic Structure.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Periodic Table",
+          "lesson": "Introduction to Periodic Table. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Periodic Table.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Chemical Bonding",
+          "lesson": "Introduction to Chemical Bonding. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Chemical Bonding.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Stoichiometry",
+          "lesson": "Introduction to Stoichiometry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Stoichiometry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Acids Bases and Salts",
+          "lesson": "Introduction to Acids Bases and Salts. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Acids Bases and Salts.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Organic Chemistry",
+          "lesson": "Introduction to Organic Chemistry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Organic Chemistry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Electrochemistry",
+          "lesson": "Introduction to Electrochemistry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Electrochemistry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biology",
+      "topics": [
+        {
+          "title": "Living Cells",
+          "lesson": "Introduction to Living Cells. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Living Cells.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Classification",
+          "lesson": "Introduction to Classification. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Classification.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Nutrition",
+          "lesson": "Introduction to Nutrition. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Nutrition.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Transport",
+          "lesson": "Introduction to Transport. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Transport.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Respiration",
+          "lesson": "Introduction to Respiration. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Respiration.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Reproduction",
+          "lesson": "Introduction to Reproduction. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Reproduction.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Genetics",
+          "lesson": "Introduction to Genetics. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Genetics.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Ecology",
+          "lesson": "Introduction to Ecology. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Ecology.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Evolution",
+          "lesson": "Introduction to Evolution. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Evolution.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agricultural Science",
+      "topics": [
+        {
+          "title": "Agricultural Ecology",
+          "lesson": "Introduction to Agricultural Ecology. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Agricultural Ecology.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Soil Science",
+          "lesson": "Introduction to Soil Science. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Soil Science.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Crop Production",
+          "lesson": "Introduction to Crop Production. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Crop Production.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Animal Production",
+          "lesson": "Introduction to Animal Production. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Animal Production.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Farm Economics",
+          "lesson": "Introduction to Farm Economics. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Farm Economics.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Agricultural Extension",
+          "lesson": "Introduction to Agricultural Extension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Agricultural Extension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "topics": [
+        {
+          "title": "Basic Economic Concepts",
+          "lesson": "Introduction to Basic Economic Concepts. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Basic Economic Concepts.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Demand and Supply",
+          "lesson": "Introduction to Demand and Supply. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Demand and Supply.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Production",
+          "lesson": "Introduction to Production. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Production.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Market Structures",
+          "lesson": "Introduction to Market Structures. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Market Structures.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "National Income",
+          "lesson": "Introduction to National Income. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in National Income.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Money and Banking",
+          "lesson": "Introduction to Money and Banking. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Money and Banking.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "International Trade",
+          "lesson": "Introduction to International Trade. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in International Trade.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Government",
+      "topics": [
+        {
+          "title": "Elements of Government",
+          "lesson": "Introduction to Elements of Government. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Elements of Government.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Political Ideologies",
+          "lesson": "Introduction to Political Ideologies. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Political Ideologies.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Constitutions",
+          "lesson": "Introduction to Constitutions. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Constitutions.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Nigerian Government",
+          "lesson": "Introduction to Nigerian Government. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Nigerian Government.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Political Parties",
+          "lesson": "Introduction to Political Parties. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Political Parties.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "International Relations",
+          "lesson": "Introduction to International Relations. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in International Relations.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "topics": [
+        {
+          "title": "Nigerian History",
+          "lesson": "Introduction to Nigerian History. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Nigerian History.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Precolonial States",
+          "lesson": "Introduction to Precolonial States. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Precolonial States.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Colonial Rule",
+          "lesson": "Introduction to Colonial Rule. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Colonial Rule.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Independence",
+          "lesson": "Introduction to Independence. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Independence.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "African History",
+          "lesson": "Introduction to African History. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in African History.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "World Affairs",
+          "lesson": "Introduction to World Affairs. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in World Affairs.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "topics": [
+        {
+          "title": "Map Reading",
+          "lesson": "Introduction to Map Reading. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Map Reading.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Physical Geography",
+          "lesson": "Introduction to Physical Geography. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Physical Geography.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Climate",
+          "lesson": "Introduction to Climate. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Climate.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Population",
+          "lesson": "Introduction to Population. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Population.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Settlement",
+          "lesson": "Introduction to Settlement. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Settlement.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Economic Geography",
+          "lesson": "Introduction to Economic Geography. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Economic Geography.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Regional Geography",
+          "lesson": "Introduction to Regional Geography. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Regional Geography.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commerce",
+      "topics": [
+        {
+          "title": "Trade",
+          "lesson": "Introduction to Trade. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Trade.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Business Units",
+          "lesson": "Introduction to Business Units. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Business Units.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Marketing",
+          "lesson": "Introduction to Marketing. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Marketing.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Transport",
+          "lesson": "Introduction to Transport. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Transport.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Insurance",
+          "lesson": "Introduction to Insurance. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Insurance.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Banking",
+          "lesson": "Introduction to Banking. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Banking.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Consumer Protection",
+          "lesson": "Introduction to Consumer Protection. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Consumer Protection.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Principles of Accounts",
+      "topics": [
+        {
+          "title": "Accounting Concepts",
+          "lesson": "Introduction to Accounting Concepts. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Accounting Concepts.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Double Entry",
+          "lesson": "Introduction to Double Entry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Double Entry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Ledger",
+          "lesson": "Introduction to Ledger. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Ledger.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Trial Balance",
+          "lesson": "Introduction to Trial Balance. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Trial Balance.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Final Accounts",
+          "lesson": "Introduction to Final Accounts. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Final Accounts.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Depreciation",
+          "lesson": "Introduction to Depreciation. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Depreciation.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Partnership Accounts",
+          "lesson": "Introduction to Partnership Accounts. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Partnership Accounts.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Literature in English",
+      "topics": [
+        {
+          "title": "Drama",
+          "lesson": "Introduction to Drama. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Drama.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Prose",
+          "lesson": "Introduction to Prose. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Prose.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Poetry",
+          "lesson": "Introduction to Poetry. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Poetry.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Literary Devices",
+          "lesson": "Introduction to Literary Devices. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Literary Devices.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Critical Appreciation",
+          "lesson": "Introduction to Critical Appreciation. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Critical Appreciation.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Prescribed Texts (verify current list)",
+          "lesson": "Introduction to Prescribed Texts (verify current list). Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Prescribed Texts (verify current list).",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Christian Religious Studies",
+      "topics": [
+        {
+          "title": "Old Testament",
+          "lesson": "Introduction to Old Testament. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Old Testament.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Prophets",
+          "lesson": "Introduction to Prophets. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Prophets.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Life of Jesus",
+          "lesson": "Introduction to Life of Jesus. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Life of Jesus.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Acts of the Apostles",
+          "lesson": "Introduction to Acts of the Apostles. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Acts of the Apostles.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Epistles",
+          "lesson": "Introduction to Epistles. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Epistles.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Christian Ethics",
+          "lesson": "Introduction to Christian Ethics. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Christian Ethics.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islamic Religious Studies",
+      "topics": [
+        {
+          "title": "Quran",
+          "lesson": "Introduction to Quran. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Quran.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Hadith",
+          "lesson": "Introduction to Hadith. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Hadith.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Tawhid",
+          "lesson": "Introduction to Tawhid. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Tawhid.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Fiqh",
+          "lesson": "Introduction to Fiqh. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Fiqh.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Sirah",
+          "lesson": "Introduction to Sirah. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Sirah.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Islamic History",
+          "lesson": "Introduction to Islamic History. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Islamic History.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "French",
+      "topics": [
+        {
+          "title": "Reading Comprehension",
+          "lesson": "Introduction to Reading Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Reading Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Vocabulary",
+          "lesson": "Introduction to Vocabulary. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Vocabulary.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Grammar",
+          "lesson": "Introduction to Grammar. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Grammar.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Written Expression",
+          "lesson": "Introduction to Written Expression. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Written Expression.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "French Culture",
+          "lesson": "Introduction to French Culture. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in French Culture.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arabic",
+      "topics": [
+        {
+          "title": "Comprehension",
+          "lesson": "Introduction to Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Grammar",
+          "lesson": "Introduction to Grammar. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Grammar.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Vocabulary",
+          "lesson": "Introduction to Vocabulary. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Vocabulary.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Literature",
+          "lesson": "Introduction to Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Translation",
+          "lesson": "Introduction to Translation. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Translation.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hausa",
+      "topics": [
+        {
+          "title": "Language and Grammar",
+          "lesson": "Introduction to Language and Grammar. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Language and Grammar.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Comprehension",
+          "lesson": "Introduction to Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Oral Literature",
+          "lesson": "Introduction to Oral Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Oral Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Written Literature",
+          "lesson": "Introduction to Written Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Written Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Culture",
+          "lesson": "Introduction to Culture. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Culture.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Igbo",
+      "topics": [
+        {
+          "title": "Language and Grammar",
+          "lesson": "Introduction to Language and Grammar. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Language and Grammar.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Comprehension",
+          "lesson": "Introduction to Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Oral Literature",
+          "lesson": "Introduction to Oral Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Oral Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Written Literature",
+          "lesson": "Introduction to Written Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Written Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Culture",
+          "lesson": "Introduction to Culture. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Culture.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yoruba",
+      "topics": [
+        {
+          "title": "Language and Grammar",
+          "lesson": "Introduction to Language and Grammar. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Language and Grammar.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Comprehension",
+          "lesson": "Introduction to Comprehension. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Comprehension.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Oral Literature",
+          "lesson": "Introduction to Oral Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Oral Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Written Literature",
+          "lesson": "Introduction to Written Literature. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Written Literature.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Culture",
+          "lesson": "Introduction to Culture. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Culture.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "topics": [
+        {
+          "title": "Music Theory",
+          "lesson": "Introduction to Music Theory. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Music Theory.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Notation",
+          "lesson": "Introduction to Notation. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Notation.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Harmony",
+          "lesson": "Introduction to Harmony. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Harmony.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "History of Music",
+          "lesson": "Introduction to History of Music. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in History of Music.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "African Music",
+          "lesson": "Introduction to African Music. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in African Music.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fine Arts",
+      "topics": [
+        {
+          "title": "Elements of Art",
+          "lesson": "Introduction to Elements of Art. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Elements of Art.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Drawing",
+          "lesson": "Introduction to Drawing. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Drawing.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Art History",
+          "lesson": "Introduction to Art History. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Art History.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Design",
+          "lesson": "Introduction to Design. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Design.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "African Art",
+          "lesson": "Introduction to African Art. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in African Art.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Economics",
+      "topics": [
+        {
+          "title": "Food and Nutrition",
+          "lesson": "Introduction to Food and Nutrition. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Food and Nutrition.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Clothing and Textiles",
+          "lesson": "Introduction to Clothing and Textiles. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Clothing and Textiles.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Home Management",
+          "lesson": "Introduction to Home Management. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Home Management.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Family Living",
+          "lesson": "Introduction to Family Living. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Family Living.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        },
+        {
+          "title": "Consumer Education",
+          "lesson": "Introduction to Consumer Education. Review definitions, key ideas, worked examples and examination applications. This is an editable lesson placeholder; replace with reviewed instructional material.",
+          "objectives": [
+            "Define and explain key terms in Consumer Education.",
+            "Apply concepts in practice questions.",
+            "Review common errors and examples."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"exambridge","version":"1.0.0","private":true,"description":"Independent UTME practice platform starter","scripts":{"start":"node server.js"},"engines":{"node":">=20"}}
