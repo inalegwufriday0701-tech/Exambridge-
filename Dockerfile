@@ -1,10 +1,21 @@
+
 FROM node:22-alpine
+
 WORKDIR /app
-COPY package.json ./
-COPY server.js curriculum.json question-bank.sample.json import-questions.js ./
-COPY public ./public
+
+COPY package*.json ./
+
+RUN npm install --omit=dev
+
+COPY . .
+
 RUN mkdir -p /app/data && chown -R node:node /app
+
 USER node
-ENV NODE_ENV=production PORT=3000
+
+ENV NODE_ENV=production
+ENV PORT=3000
+
 EXPOSE 3000
-CMD ["node","server.js"]
+
+CMD ["node", "server.js"]
